@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitness Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1>FitTracker</h1>
+      <ul>
+        <li><a href="#challenges">Challenges</a></li>
+        <li><a href="#progress">Progress</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="challenges" class="section challenges">
+    <div class="container">
+      <h2>Your Fitness Challenges</h2>
+      <div class="cards">
+        <div class="card cardio">
+          <h3>Cardio Sprint</h3>
+          <p>Push your stamina with daily runs and jumps.</p>
+        </div>
+        <div class="card strength">
+          <h3>Strength Max</h3>
+          <p>Lift more. Track progress and stay strong.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="progress" class="section progress">
+    <div class="container">
+      <h2>Progress Tracker</h2>
+      <canvas id="progressChart" width="600" height="400"></canvas>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 FitTracker. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
